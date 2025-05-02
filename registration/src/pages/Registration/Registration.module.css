@@ -1,0 +1,16 @@
+.countainer{
+    display: flex ;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
+
+    & h1{
+        text-align: center;
+    }
+
+    & .lowtext{
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+    }
+}
